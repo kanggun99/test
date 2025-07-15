@@ -1,2 +1,3 @@
-2025/07/15-09:47:03.051 1870 Creating DB D:\kang\GitHub\test\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database since it was missing.
-2025/07/15-09:47:03.078 1870 Reusing MANIFEST D:\kang\GitHub\test\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database/MANIFEST-000001
+2025/07/15-09:49:38.341 12a8 Reusing MANIFEST D:\kang\GitHub\test\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database/MANIFEST-000001
+2025/07/15-09:49:38.350 12a8 Recovering log #3
+2025/07/15-09:49:38.350 12a8 Reusing old log D:\kang\GitHub\test\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database/000003.log 
