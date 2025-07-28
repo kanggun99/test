@@ -1,0 +1,33 @@
+참고 사항
+	기본 형태
+		게임 메인 페이지.jsp
+			기본 형태
+			<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+			<!DOCTYPE html>
+			<html>
+				<head>
+					<meta charset="UTF-8">
+					<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+					<link rel="stylesheet" href="views/2048/style.css"> 게임 내 css
+					<link rel="stylesheet" href="css/gameMainStyle.css"> 공통 게임 메인 css
+					<link rel="stylesheet" href="css/imsi.css"><!-- 임시 css 나중에 삭제 -->
+					<link rel="stylesheet" href="css/style.css"> 공통, 헤드, 푸터 css
+					<script type="text/javascript" src="views/2048/script.js"></script> 게임 내 js
+					<title>Insert title here</title>
+				</head>
+				<body>
+					<div class="wrap">
+						<jsp:include page="/views/common/header.jsp"/> 공통 헤더
+						<jsp:include page="/views/2048/main.jsp"/> 게임 별 메인
+						<jsp:include page="/views/common/footer.jsp"/> 공통 푸터
+					</div>
+				</body>
+			</html>
+		에인 페이지의 메인.jsp
+			기본 형태
+			<div class="main">
+				<div class="middle ALL center"> 
+				</div>
+			</div>
+		js
+		css

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+.one       { background-color: hsl(0,   100%, 95%); }
+.two       { background-color: hsl(30,  100%, 90%); }
+.three     { background-color: hsl(45,  100%, 85%); }
+.four      { background-color: hsl(90,  100%, 80%); }
+.five      { background-color: hsl(120, 100%, 75%); }
+.six       { background-color: hsl(150, 100%, 70%); }
+.seven     { background-color: hsl(180, 100%, 65%); }
+.eight     { background-color: hsl(210, 100%, 60%); }
+.nine      { background-color: hsl(240, 100%, 55%); }
+.ten       { background-color: hsl(270, 100%, 50%); }
+.eleven    { background-color: hsl(300, 100%, 47%); }
+.twelve    { background-color: hsl(330, 100%, 44%); }
+.thirteen  { background-color: hsl(15,  100%, 41%); }
+.fourteen  { background-color: hsl(60,  100%, 38%); }
+.fifteen   { background-color: hsl(105, 100%, 35%); }
+.sixteen   { background-color: hsl(150, 100%, 32%); }
+.seventeen { background-color: hsl(195, 100%, 29%); }
+.eighteen  { background-color: hsl(240, 100%, 26%); }
+.nineteen  { background-color: hsl(285, 100%, 23%); }
+.twenty    { background-color: hsl(330, 100%, 20%); }
+
+td{font-size: 24px; text-align: center;}
+/*------------------------------main------------------------------*/
+.wrap .main div .gameMain{display: inline-block;}
+.wrap .main div .gameMain a{
+	width: 200px; height: 50px; border-radius: 10px; background-color: #3498DB; color: #fff; 
+	margin-bottom: 15px; box-shadow: 5px 5px 3px #666; 
+	display: flex; justify-content: center; align-items: center;
+}
+.wrap .main div .gameMain a:last-child{margin-bottom: 0;}
+.wrap .main div .gameMain a:active{margin-left: 5px; margin-top: 5px; box-shadow: none;}
+/*게임 화면*/
+.wrap .main div .playGame{display: inline-block;}
+.wrap .main div .playGame table{border:5px solid black; border-collapse: collapse; table-layout: fixed;}
+.wrap .main div .playGame td{border:1px solid black; width: 100px; height: 100px;}
